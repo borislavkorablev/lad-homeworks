@@ -69,7 +69,7 @@ console.log(typeof (userName));
 console.log(typeof userName);
 
 console.log();
-console.log("isFeatureModeOn:");
+console.log("emptyPlaceholder:");
 console.log(typeof (emptyPlaceholder));
 console.log(typeof emptyPlaceholder);
 
