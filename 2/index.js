@@ -10,11 +10,11 @@ fatal: unable to access 'https://github.com/serg-nn52/LAD_2026_JS_2.git/': The r
 
 /* #1.2 Публичный репозиторий создан во время урока. */
 
-let userAge;                // #2.1 Сейчас эта переменная undefined, но при присваивании примет значение num 
+let userAge;                // #2.1 При присваивании примет значение num 
 
-let isAuthorized = true;    // #2.2 Булева переменная только с двумя значениями авторизован/нет
+let isAuthorized;           // #2.2 Булева переменная только с двумя значениями авторизован/нет
 
-let cartItems = [];         // #2.3 Переменная при присваивании примет значение списка/массива
+let cartItems;              // #2.3 Переменная при присваивании примет значение списка/массива
 
 let book = {                // #2.4
     title: "",
@@ -25,8 +25,13 @@ let book = {                // #2.4
 
 let finalPrice;             // #2.5
 
-let isTimerOn = false;      // #2.6
+let intervalId;             // #2.6 Скоре всего в данном случае значением будет функция 
 
+let openModalBtn;           // #2.7 Сокращение Btn чтобы имя не было грамоздким
 
+let isPopupOpen;            // #2.8
 
+let greetingMessage;        // #2.9
+
+let submitRegistrationForm; // #2.10 
 
